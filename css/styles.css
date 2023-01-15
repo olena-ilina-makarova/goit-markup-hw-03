@@ -1,0 +1,242 @@
+/* Navigation & heading text NAVY BLUE #2E2F42 */
+/* Body text SLATE #434455 */
+/* Accent IRIS #4D5AE5*/
+/* Hero text WHITE #FFFFFF */
+/* Primary background color NAVY BLUE #2E2F42 */
+/* Secondary background color CLOUD #F4F4FD*/
+
+:root {
+  --accent-color: #4d5ae5;
+  --body-text: #434455;
+  --heading-text: #2e2f42;
+  --primary-wh-color: #ffffff;
+  --primary-background-color: #2e2f42;
+  --secondary-background-color: #f4f4fd;
+  --bgk-btn: #404bbf;
+}
+body {
+  background-color: var(--primary-wh-color);
+  color: var(--body-text);
+  font-family: "roboto", sans-serif;
+}
+
+.logo {
+  font-family: "raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--heading-text);
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+
+.site-nav .link-header:hover,
+.site-nav .link-header:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link-header.current {
+  color: var(--accent-color);
+}
+
+/* site auth */
+
+.auth-nav {
+  font-style: normal;
+}
+
+.auth-nav .link-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+
+.auth-nav .link-mail:hover,
+.auth-nav .link-mail:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .link-tel {
+  color: var(--body-text);
+}
+
+.auth-nav .link-tel:hover,
+.auth-nav .link-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--primary-background-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.batton {
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-wh-color);
+}
+
+/* Features */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-text);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+
+.features-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
+
+/* Work examples */
+
+/* Our Team */
+.pic {
+  background-color: var(--primary-wh-color);
+}
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+.team-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
+
+/* Portfolio buttons */
+
+button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+button:hover,
+button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-wh-color);
+}
+
+/* Portfolio img */
+.picture-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+
+.picture-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--primary-background-color);
+}
+
+.logo-footer {
+  font-family: "raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
