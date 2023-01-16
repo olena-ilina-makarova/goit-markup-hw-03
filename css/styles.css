@@ -53,7 +53,6 @@ button {
   font-size: 16px;
   letter-spacing: 0.04em;
   color: var(--primary-wh-color);
-  margin-top: 48px;
 }
 
 .container {
@@ -186,6 +185,7 @@ a:hover {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 /* Features */
@@ -206,6 +206,11 @@ a:hover {
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.features-item,
+.features-subtitle {
+  min-width: 264px;
 }
 
 .visually-hidden {
@@ -258,6 +263,7 @@ a:hover {
 
 .team {
   background-color: var(--secondary-background-color);
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -309,15 +315,22 @@ a:hover {
 
 .image-container {
   display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 .image-btn {
   display: flex;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  text-align: center;
-  justify-content: center;
+}
+
+.image-btn button {
+  min-width: 0;
+  padding: 12px 24px;
+  color: var(--accent-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+  border: transparent;
 }
 
 button:hover,
@@ -361,6 +374,7 @@ button:focus {
 .tittle-brd {
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 /* Footer */
@@ -382,6 +396,7 @@ button:focus {
 }
 
 .footer-subtitle {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
