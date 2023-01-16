@@ -344,6 +344,11 @@ button:focus {
 }
 
 /* Portfolio img */
+
+.image {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .picture {
   display: flex;
   flex-wrap: wrap;
