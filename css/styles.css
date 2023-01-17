@@ -278,7 +278,6 @@ a:hover {
   text-transform: capitalize;
   color: var(--heading-text);
   text-align: center;
-  padding-top: 120px;
 }
 
 .team-list {
@@ -317,15 +316,11 @@ a:hover {
 
 /* Portfolio buttons */
 
-.image-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
-}
-
 .image-btn {
   display: flex;
   gap: 24px;
+  margin-bottom: 72px;
+  justify-content: center;
 }
 
 .image-btn button {
@@ -367,7 +362,6 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--heading-text);
-  padding-top: 32px;
   padding-left: 16px;
   margin-bottom: 8px;
 }
@@ -377,7 +371,6 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-left: 16px;
-  padding-bottom: 32px;
 }
 
 .tittle-brd {
